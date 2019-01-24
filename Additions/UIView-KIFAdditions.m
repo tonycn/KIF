@@ -256,7 +256,7 @@ NS_INLINE BOOL StringsMatchExceptLineBreaks(NSString *expected, NSString *actual
                 }
             }];
 
-            BOOL animationEnabled = [KIFUITestActor testActorAnimationsEnabled];
+            BOOL animationEnabled = YES;
             CFTimeInterval delay = animationEnabled ? 0.5 : 0.05;
             for (NSUInteger section = 0, numberOfSections = [tableView numberOfSections]; section < numberOfSections; section++) {
                 for (NSUInteger row = 0, numberOfRows = [tableView numberOfRowsInSection:section]; row < numberOfRows; row++) {

@@ -1,0 +1,18 @@
+PODS:
+  - KIF (1003.7.4):
+    - KIF/Core (= 1003.7.4)
+  - KIF/Core (1003.7.4)
+
+DEPENDENCIES:
+  - KIF (from `../../`)
+
+EXTERNAL SOURCES:
+  KIF:
+    :path: "../../"
+
+SPEC CHECKSUMS:
+  KIF: e57f68038bda4937d6932115a1fdea2a0f5161f3
+
+PODFILE CHECKSUM: 37ca095f6d436a4ec5a03b3d317638bec8873992
+
+COCOAPODS: 1.6.0.beta.2
