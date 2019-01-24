@@ -5,6 +5,7 @@
 //  Created by Harley Cooper on 1/31/18.
 //
 
+#import <UIKit/UIKit.h>
 #import <objc/runtime.h>
 #import "KIFTextInputTraitsOverrides.h"
 

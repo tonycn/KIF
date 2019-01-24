@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
-#import <XCTest/XCTest.h>
 
 //! Project version number for KIF.
 FOUNDATION_EXPORT double KIFVersionNumber;
@@ -18,8 +17,6 @@ FOUNDATION_EXPORT const unsigned char KIFVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <KIF/PublicHeader.h>
 
-#import <KIF/KIFTestActor.h>
-#import <KIF/KIFTestCase.h>
 #import <KIF/KIFAccessibilityEnabler.h>
 #import <KIF/KIFSystemTestActor.h>
 #import <KIF/KIFUITestActor.h>
@@ -43,5 +40,4 @@ FOUNDATION_EXPORT const unsigned char KIFVersionString[];
 #import <KIF/UITableView-KIFAdditions.h>
 #import <KIF/UITouch-KIFAdditions.h>
 #import <KIF/UIWindow-KIFAdditions.h>
-#import <KIF/XCTestCase-KIFAdditions.h>
 #import <KIF/UIView-Debugging.h>

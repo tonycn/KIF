@@ -7,8 +7,8 @@
 //
 
 #import "NSBundle-KIFAdditions.h"
-#import "KIFTestCase.h"
 #import "LoadableCategory.h"
+#import "KIFUIObject.h"
 
 MAKE_CATEGORIES_LOADABLE(NSBundle_KIFAdditions)
 
@@ -19,7 +19,7 @@ MAKE_CATEGORIES_LOADABLE(NSBundle_KIFAdditions)
     static NSBundle *bundle;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        bundle = [self bundleForClass:[KIFTestCase class]];
+        bundle = [self bundleForClass:[KIFUIObject class]];
     });
     return bundle;
 }

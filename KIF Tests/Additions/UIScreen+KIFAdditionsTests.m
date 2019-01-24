@@ -6,7 +6,6 @@
 //
 //
 
-#import <XCTest/XCTest.h>
 #import "UIScreen+KIFAdditions.h"
 
 @interface CustomBoundsUIScreen : UIScreen
