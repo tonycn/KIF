@@ -34,7 +34,6 @@
 #import "UITouch-KIFAdditions.h"
 #import "UIView-KIFAdditions.h"
 #import "UIWindow-KIFAdditions.h"
-#import "XCTestCase-KIFAdditions.h"
 #import "UIView-Debugging.h"
 
 FOUNDATION_EXPORT double KIFVersionNumber;

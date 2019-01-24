@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+@import KIF;
+
 @interface AppDelegate ()
 
 @end
